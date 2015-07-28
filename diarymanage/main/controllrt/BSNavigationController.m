@@ -12,6 +12,7 @@
 @implementation BSNavigationController
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //测试GIT
     // Do any additional setup after loading the view
     
 }
