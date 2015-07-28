@@ -71,6 +71,7 @@
 		534D4F6B1B671AA1006253EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D4F661B671AA1006253EB /* Main.storyboard */; };
 		534D4F6C1B671AA1006253EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534D4F681B671AA1006253EB /* Images.xcassets */; };
 		534D4F701B671BCE006253EB /* libPushSDK-1.8.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 534D4F6F1B671BCE006253EB /* libPushSDK-1.8.3.a */; };
+		534D4F731B672263006253EB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 534D4F721B672263006253EB /* UIView+Extension.m */; };
 		5352D5FB1B39860E00FA2FD0 /* round1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FA1B39860E00FA2FD0 /* round1.png */; };
 		5352D5FD1B39862900FA2FD0 /* round2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FC1B39862900FA2FD0 /* round2.png */; };
 		5352D5FF1B39895500FA2FD0 /* round3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FE1B39895500FA2FD0 /* round3.png */; };
@@ -86,7 +87,6 @@
 		5352D61F1B3A911200FA2FD0 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352D61A1B3A911200FA2FD0 /* MBProgressHUD+NJ.m */; };
 		5352D6201B3A911200FA2FD0 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5352D61B1B3A911200FA2FD0 /* MBProgressHUD.bundle */; };
 		5352D6211B3A911200FA2FD0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352D61D1B3A911200FA2FD0 /* MBProgressHUD.m */; };
-		535722521B362E6C001F6903 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 535722511B362E6C001F6903 /* UIView+Extension.m */; };
 		5368A3461B53469200652E95 /* tuisong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5368A3451B53469200652E95 /* tuisong.wav */; };
 		5368A3511B56458900652E95 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5368A3501B56458900652E95 /* CFNetwork.framework */; };
 		5368A3531B56459400652E95 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5368A3521B56459400652E95 /* CoreFoundation.framework */; };
@@ -214,6 +214,8 @@
 		534D4F681B671AA1006253EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		534D4F6E1B671BCE006253EB /* APService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APService.h; sourceTree = "<group>"; };
 		534D4F6F1B671BCE006253EB /* libPushSDK-1.8.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPushSDK-1.8.3.a"; sourceTree = "<group>"; };
+		534D4F711B672263006253EB /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		534D4F721B672263006253EB /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		5352D5FA1B39860E00FA2FD0 /* round1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round1.png; sourceTree = "<group>"; };
 		5352D5FC1B39862900FA2FD0 /* round2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round2.png; sourceTree = "<group>"; };
 		5352D5FE1B39895500FA2FD0 /* round3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round3.png; sourceTree = "<group>"; };
@@ -234,8 +236,6 @@
 		5352D61B1B3A911200FA2FD0 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		5352D61C1B3A911200FA2FD0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		5352D61D1B3A911200FA2FD0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		535722501B362E6C001F6903 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "../UIView+Extension.h"; sourceTree = "<group>"; };
-		535722511B362E6C001F6903 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "../UIView+Extension.m"; sourceTree = "<group>"; };
 		5368A3451B53469200652E95 /* tuisong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tuisong.wav; sourceTree = "<group>"; };
 		5368A3501B56458900652E95 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5368A3521B56459400652E95 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -712,8 +712,8 @@
 		535722551B362ED6001F6903 /* category */ = {
 			isa = PBXGroup;
 			children = (
-				535722501B362E6C001F6903 /* UIView+Extension.h */,
-				535722511B362E6C001F6903 /* UIView+Extension.m */,
+				534D4F711B672263006253EB /* UIView+Extension.h */,
+				534D4F721B672263006253EB /* UIView+Extension.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -990,8 +990,8 @@
 				5368A6281B38F93800093484 /* TaskToCell.m in Sources */,
 				53482C3D1B33E55400F85BB3 /* BSWeekTableViewController.m in Sources */,
 				53482BFD1B30592800F85BB3 /* BSTabBarController.m in Sources */,
+				534D4F731B672263006253EB /* UIView+Extension.m in Sources */,
 				5318F5491B5DC09E0002B637 /* SXTitleLable.m in Sources */,
-				535722521B362E6C001F6903 /* UIView+Extension.m in Sources */,
 				53482BC01B2FD0F400F85BB3 /* BSPlanViewController.m in Sources */,
 				53482C421B33EEF500F85BB3 /* BSWeekDiaryCell.m in Sources */,
 				5352D6211B3A911200FA2FD0 /* MBProgressHUD.m in Sources */,
