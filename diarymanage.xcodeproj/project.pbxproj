@@ -9,12 +9,8 @@
 /* Begin PBXBuildFile section */
 		5318F5491B5DC09E0002B637 /* SXTitleLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5318F5481B5DC09E0002B637 /* SXTitleLable.m */; };
 		53482B831B2FC53500F85BB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53482B821B2FC53500F85BB3 /* main.m */; };
-		53482B861B2FC53500F85BB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53482B851B2FC53500F85BB3 /* AppDelegate.m */; };
 		53482B891B2FC53500F85BB3 /* diarymanage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53482B871B2FC53500F85BB3 /* diarymanage.xcdatamodeld */; };
 		53482B8C1B2FC53500F85BB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53482B8B1B2FC53500F85BB3 /* ViewController.m */; };
-		53482B8F1B2FC53500F85BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53482B8D1B2FC53500F85BB3 /* Main.storyboard */; };
-		53482B911B2FC53500F85BB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53482B901B2FC53500F85BB3 /* Images.xcassets */; };
-		53482B941B2FC53500F85BB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53482B921B2FC53500F85BB3 /* LaunchScreen.xib */; };
 		53482BA01B2FC53600F85BB3 /* diarymanageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53482B9F1B2FC53600F85BB3 /* diarymanageTests.m */; };
 		53482BAA1B2FCA5C00F85BB3 /* weekday.png in Resources */ = {isa = PBXBuildFile; fileRef = 53482BA91B2FCA5C00F85BB3 /* weekday.png */; };
 		53482BAC1B2FCAFD00F85BB3 /* zhouric.png in Resources */ = {isa = PBXBuildFile; fileRef = 53482BAB1B2FCAFD00F85BB3 /* zhouric.png */; };
@@ -70,6 +66,10 @@
 		53482C5A1B34567D00F85BB3 /* TLDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53482C581B34567D00F85BB3 /* TLDemoViewController.m */; };
 		53482C5B1B34567D00F85BB3 /* TLDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53482C591B34567D00F85BB3 /* TLDemoViewController.xib */; };
 		534D4F551B670D8C006253EB /* BSReportFormWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 534D4F541B670D8C006253EB /* BSReportFormWebViewController.m */; };
+		534D4F691B671AA1006253EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 534D4F621B671AA1006253EB /* AppDelegate.m */; };
+		534D4F6A1B671AA1006253EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 534D4F641B671AA1006253EB /* LaunchScreen.xib */; };
+		534D4F6B1B671AA1006253EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D4F661B671AA1006253EB /* Main.storyboard */; };
+		534D4F6C1B671AA1006253EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534D4F681B671AA1006253EB /* Images.xcassets */; };
 		5352D5FB1B39860E00FA2FD0 /* round1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FA1B39860E00FA2FD0 /* round1.png */; };
 		5352D5FD1B39862900FA2FD0 /* round2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FC1B39862900FA2FD0 /* round2.png */; };
 		5352D5FF1B39895500FA2FD0 /* round3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FE1B39895500FA2FD0 /* round3.png */; };
@@ -132,14 +132,9 @@
 		53482B7D1B2FC53500F85BB3 /* diarymanage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diarymanage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53482B811B2FC53500F85BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		53482B821B2FC53500F85BB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		53482B841B2FC53500F85BB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
-		53482B851B2FC53500F85BB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		53482B881B2FC53500F85BB3 /* diarymanage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = diarymanage.xcdatamodel; sourceTree = "<group>"; };
 		53482B8A1B2FC53500F85BB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
 		53482B8B1B2FC53500F85BB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
-		53482B8E1B2FC53500F85BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		53482B901B2FC53500F85BB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../Images.xcassets; sourceTree = "<group>"; };
-		53482B931B2FC53500F85BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		53482B991B2FC53600F85BB3 /* diarymanageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diarymanageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53482B9E1B2FC53600F85BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53482B9F1B2FC53600F85BB3 /* diarymanageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = diarymanageTests.m; sourceTree = "<group>"; };
@@ -212,6 +207,11 @@
 		53482C591B34567D00F85BB3 /* TLDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLDemoViewController.xib; path = ../controller/TLDemoViewController.xib; sourceTree = "<group>"; };
 		534D4F531B670D8C006253EB /* BSReportFormWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSReportFormWebViewController.h; sourceTree = "<group>"; };
 		534D4F541B670D8C006253EB /* BSReportFormWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSReportFormWebViewController.m; sourceTree = "<group>"; };
+		534D4F611B671AA1006253EB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		534D4F621B671AA1006253EB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		534D4F651B671AA1006253EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		534D4F671B671AA1006253EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		534D4F681B671AA1006253EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5352D5FA1B39860E00FA2FD0 /* round1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round1.png; sourceTree = "<group>"; };
 		5352D5FC1B39862900FA2FD0 /* round2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round2.png; sourceTree = "<group>"; };
 		5352D5FE1B39895500FA2FD0 /* round3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round3.png; sourceTree = "<group>"; };
@@ -445,11 +445,10 @@
 		53482BBB1B2FD04100F85BB3 /* other */ = {
 			isa = PBXGroup;
 			children = (
-				53482B8D1B2FC53500F85BB3 /* Main.storyboard */,
-				53482B901B2FC53500F85BB3 /* Images.xcassets */,
-				53482B921B2FC53500F85BB3 /* LaunchScreen.xib */,
-				53482B841B2FC53500F85BB3 /* AppDelegate.h */,
-				53482B851B2FC53500F85BB3 /* AppDelegate.m */,
+				534D4F611B671AA1006253EB /* AppDelegate.h */,
+				534D4F621B671AA1006253EB /* AppDelegate.m */,
+				534D4F631B671AA1006253EB /* Base.lproj */,
+				534D4F681B671AA1006253EB /* Images.xcassets */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -678,6 +677,15 @@
 			path = "reportform(报表)";
 			sourceTree = "<group>";
 		};
+		534D4F631B671AA1006253EB /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				534D4F641B671AA1006253EB /* LaunchScreen.xib */,
+				534D4F661B671AA1006253EB /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		5352D6161B3A911200FA2FD0 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -900,7 +908,6 @@
 				5352D6011B39899F00FA2FD0 /* round4.png in Resources */,
 				5352D6051B398A1F00FA2FD0 /* round6.png in Resources */,
 				53482BEC1B30158800F85BB3 /* tongji.png in Resources */,
-				53482B8F1B2FC53500F85BB3 /* Main.storyboard in Resources */,
 				53482BEE1B3016DE00F85BB3 /* shiyongshouce.png in Resources */,
 				53482BB01B2FCCF000F85BB3 /* control.png in Resources */,
 				5368A6291B38F93800093484 /* TaskToCell.xib in Resources */,
@@ -918,6 +925,7 @@
 				53482BF01B301A3200F85BB3 /* update.png in Resources */,
 				5352D6121B3A32F600FA2FD0 /* arrow2.png in Resources */,
 				5368A3461B53469200652E95 /* tuisong.wav in Resources */,
+				534D4F6B1B671AA1006253EB /* Main.storyboard in Resources */,
 				5368A6031B384FBC00093484 /* post_type_bubble_travel.png in Resources */,
 				53482C111B3074C900F85BB3 /* setting.png in Resources */,
 				5352D5FD1B39862900FA2FD0 /* round2.png in Resources */,
@@ -926,6 +934,7 @@
 				5368A6141B3853B000093484 /* post_type_bubble_zxgz@2x.png in Resources */,
 				53482BDF1B2FD93E00F85BB3 /* post_type_bubble_photo.png in Resources */,
 				53482C2A1B330B5F00F85BB3 /* sclh.png in Resources */,
+				534D4F6A1B671AA1006253EB /* LaunchScreen.xib in Resources */,
 				53482BDA1B2FD93E00F85BB3 /* modal_background@2x.png in Resources */,
 				53482BDE1B2FD93E00F85BB3 /* post_type_bubble_link@2x.png in Resources */,
 				53482C011B30652A00F85BB3 /* renwuduban.png in Resources */,
@@ -936,6 +945,7 @@
 				5352D6101B3A325D00FA2FD0 /* arrow1.png in Resources */,
 				5368A5FB1B384DFA00093484 /* post_type_bubble_tower.png in Resources */,
 				53482BD91B2FD93E00F85BB3 /* modal_background.png in Resources */,
+				534D4F6C1B671AA1006253EB /* Images.xcassets in Resources */,
 				5368A6131B3853B000093484 /* post_type_bubble_zxgz.png in Resources */,
 				53482BDB1B2FD93E00F85BB3 /* post_type_bubble_chat.png in Resources */,
 				5352D5FF1B39895500FA2FD0 /* round3.png in Resources */,
@@ -945,7 +955,6 @@
 				5352D5FB1B39860E00FA2FD0 /* round1.png in Resources */,
 				5352D6201B3A911200FA2FD0 /* MBProgressHUD.bundle in Resources */,
 				53482C151B3077D800F85BB3 /* cx_bg.jpg in Resources */,
-				53482B941B2FC53500F85BB3 /* LaunchScreen.xib in Resources */,
 				53482BE71B2FD93E00F85BB3 /* tab_bar_button_compose_selected.png in Resources */,
 				5368A60F1B3851EF00093484 /* post_type_bubble_party.png in Resources */,
 				53482BE11B2FD93E00F85BB3 /* post_type_bubble_quote.png in Resources */,
@@ -955,7 +964,6 @@
 				53482C131B30754400F85BB3 /* set.png in Resources */,
 				5368A5FF1B384E8300093484 /* post_type_bubble_more.png in Resources */,
 				53482C5B1B34567D00F85BB3 /* TLDemoViewController.xib in Resources */,
-				53482B911B2FC53500F85BB3 /* Images.xcassets in Resources */,
 				5368A3631B5646A800652E95 /* PushConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -978,7 +986,6 @@
 				5352D6151B3A8FAE00FA2FD0 /* BSMoreController.m in Sources */,
 				53482C1A1B3117F600F85BB3 /* WeiboInfo.m in Sources */,
 				53482BF71B301CFC00F85BB3 /* TeamFollowButton.m in Sources */,
-				53482B861B2FC53500F85BB3 /* AppDelegate.m in Sources */,
 				5352D61F1B3A911200FA2FD0 /* MBProgressHUD+NJ.m in Sources */,
 				5352D61E1B3A911200FA2FD0 /* Heroinfo.m in Sources */,
 				5368A6281B38F93800093484 /* TaskToCell.m in Sources */,
@@ -992,6 +999,7 @@
 				534D4F551B670D8C006253EB /* BSReportFormWebViewController.m in Sources */,
 				5382D44D1B392B1F00BB06D1 /* TaskTodoInfo.m in Sources */,
 				53482B891B2FC53500F85BB3 /* diarymanage.xcdatamodeld in Sources */,
+				534D4F691B671AA1006253EB /* AppDelegate.m in Sources */,
 				53482C5A1B34567D00F85BB3 /* TLDemoViewController.m in Sources */,
 				53482BFA1B3051A300F85BB3 /* BSNavigationController.m in Sources */,
 				53482C201B31187700F85BB3 /* BSMeetingTableViewController.m in Sources */,
@@ -1025,22 +1033,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		53482B8D1B2FC53500F85BB3 /* Main.storyboard */ = {
+		534D4F641B671AA1006253EB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				53482B8E1B2FC53500F85BB3 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		53482B921B2FC53500F85BB3 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53482B931B2FC53500F85BB3 /* Base */,
+				534D4F651B671AA1006253EB /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ../..;
+			sourceTree = "<group>";
+		};
+		534D4F661B671AA1006253EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				534D4F671B671AA1006253EB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
