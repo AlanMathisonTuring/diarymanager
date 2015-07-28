@@ -69,6 +69,7 @@
 		53482C511B33FBDD00F85BB3 /* BSDiaryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 53482C501B33FBDD00F85BB3 /* BSDiaryInfo.m */; };
 		53482C5A1B34567D00F85BB3 /* TLDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53482C581B34567D00F85BB3 /* TLDemoViewController.m */; };
 		53482C5B1B34567D00F85BB3 /* TLDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53482C591B34567D00F85BB3 /* TLDemoViewController.xib */; };
+		534D4F551B670D8C006253EB /* BSReportFormWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 534D4F541B670D8C006253EB /* BSReportFormWebViewController.m */; };
 		5352D5FB1B39860E00FA2FD0 /* round1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FA1B39860E00FA2FD0 /* round1.png */; };
 		5352D5FD1B39862900FA2FD0 /* round2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FC1B39862900FA2FD0 /* round2.png */; };
 		5352D5FF1B39895500FA2FD0 /* round3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FE1B39895500FA2FD0 /* round3.png */; };
@@ -209,6 +210,8 @@
 		53482C571B34567D00F85BB3 /* TLDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLDemoViewController.h; sourceTree = "<group>"; };
 		53482C581B34567D00F85BB3 /* TLDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLDemoViewController.m; sourceTree = "<group>"; };
 		53482C591B34567D00F85BB3 /* TLDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLDemoViewController.xib; path = ../controller/TLDemoViewController.xib; sourceTree = "<group>"; };
+		534D4F531B670D8C006253EB /* BSReportFormWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSReportFormWebViewController.h; sourceTree = "<group>"; };
+		534D4F541B670D8C006253EB /* BSReportFormWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSReportFormWebViewController.m; sourceTree = "<group>"; };
 		5352D5FA1B39860E00FA2FD0 /* round1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round1.png; sourceTree = "<group>"; };
 		5352D5FC1B39862900FA2FD0 /* round2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round2.png; sourceTree = "<group>"; };
 		5352D5FE1B39895500FA2FD0 /* round3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round3.png; sourceTree = "<group>"; };
@@ -666,6 +669,15 @@
 			path = ui;
 			sourceTree = "<group>";
 		};
+		534D4F521B670CE0006253EB /* reportform(报表) */ = {
+			isa = PBXGroup;
+			children = (
+				534D4F531B670D8C006253EB /* BSReportFormWebViewController.h */,
+				534D4F541B670D8C006253EB /* BSReportFormWebViewController.m */,
+			);
+			path = "reportform(报表)";
+			sourceTree = "<group>";
+		};
 		5352D6161B3A911200FA2FD0 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -713,6 +725,7 @@
 		5368A6161B38F4AB00093484 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				534D4F521B670CE0006253EB /* reportform(报表) */,
 				5352D6131B3A8FAE00FA2FD0 /* BSMoreController.h */,
 				5352D6141B3A8FAE00FA2FD0 /* BSMoreController.m */,
 			);
@@ -976,6 +989,7 @@
 				53482BC01B2FD0F400F85BB3 /* BSPlanViewController.m in Sources */,
 				53482C421B33EEF500F85BB3 /* BSWeekDiaryCell.m in Sources */,
 				5352D6211B3A911200FA2FD0 /* MBProgressHUD.m in Sources */,
+				534D4F551B670D8C006253EB /* BSReportFormWebViewController.m in Sources */,
 				5382D44D1B392B1F00BB06D1 /* TaskTodoInfo.m in Sources */,
 				53482B891B2FC53500F85BB3 /* diarymanage.xcdatamodeld in Sources */,
 				53482C5A1B34567D00F85BB3 /* TLDemoViewController.m in Sources */,

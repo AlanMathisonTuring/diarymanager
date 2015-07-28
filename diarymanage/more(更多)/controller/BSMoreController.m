@@ -8,6 +8,7 @@
 
 #import "BSMoreController.h"
 #import "MBProgressHUD+NJ.h"
+#import "BSReportFormWebViewController.h"
 @interface BSMoreController ()
 
 @end
@@ -26,8 +27,18 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSLog(@"第%d组，第%d行",indexPath.section,indexPath.row);
-    if(indexPath.section == 2){
+    if(indexPath.section == 0){
+        if(indexPath.row == 0){
+            BSReportFormWebViewController* reportFormController = [[BSReportFormWebViewController alloc]init];
+            
+            UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:reportFormController];
+            [self presentViewController:nav animated:YES completion:^{
+                
+            }];
+        }
+        
+    }
+    else if(indexPath.section == 2){
         if(indexPath.row == 0){
             [MBProgressHUD showMessage:@"正在拼命加载..."];
             [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(newVesion) userInfo:@"..." repeats:NO];
