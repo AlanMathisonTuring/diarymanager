@@ -70,6 +70,7 @@
 		534D4F6A1B671AA1006253EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 534D4F641B671AA1006253EB /* LaunchScreen.xib */; };
 		534D4F6B1B671AA1006253EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D4F661B671AA1006253EB /* Main.storyboard */; };
 		534D4F6C1B671AA1006253EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534D4F681B671AA1006253EB /* Images.xcassets */; };
+		534D4F701B671BCE006253EB /* libPushSDK-1.8.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 534D4F6F1B671BCE006253EB /* libPushSDK-1.8.3.a */; };
 		5352D5FB1B39860E00FA2FD0 /* round1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FA1B39860E00FA2FD0 /* round1.png */; };
 		5352D5FD1B39862900FA2FD0 /* round2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FC1B39862900FA2FD0 /* round2.png */; };
 		5352D5FF1B39895500FA2FD0 /* round3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352D5FE1B39895500FA2FD0 /* round3.png */; };
@@ -87,7 +88,6 @@
 		5352D6211B3A911200FA2FD0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352D61D1B3A911200FA2FD0 /* MBProgressHUD.m */; };
 		535722521B362E6C001F6903 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 535722511B362E6C001F6903 /* UIView+Extension.m */; };
 		5368A3461B53469200652E95 /* tuisong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5368A3451B53469200652E95 /* tuisong.wav */; };
-		5368A34F1B56454700652E95 /* libPushSDK-1.8.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5368A34E1B56454700652E95 /* libPushSDK-1.8.3.a */; };
 		5368A3511B56458900652E95 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5368A3501B56458900652E95 /* CFNetwork.framework */; };
 		5368A3531B56459400652E95 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5368A3521B56459400652E95 /* CoreFoundation.framework */; };
 		5368A3551B5645A100652E95 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5368A3541B5645A100652E95 /* CoreTelephony.framework */; };
@@ -212,6 +212,8 @@
 		534D4F651B671AA1006253EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		534D4F671B671AA1006253EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		534D4F681B671AA1006253EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		534D4F6E1B671BCE006253EB /* APService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APService.h; sourceTree = "<group>"; };
+		534D4F6F1B671BCE006253EB /* libPushSDK-1.8.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPushSDK-1.8.3.a"; sourceTree = "<group>"; };
 		5352D5FA1B39860E00FA2FD0 /* round1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round1.png; sourceTree = "<group>"; };
 		5352D5FC1B39862900FA2FD0 /* round2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round2.png; sourceTree = "<group>"; };
 		5352D5FE1B39895500FA2FD0 /* round3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round3.png; sourceTree = "<group>"; };
@@ -235,8 +237,6 @@
 		535722501B362E6C001F6903 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "../UIView+Extension.h"; sourceTree = "<group>"; };
 		535722511B362E6C001F6903 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "../UIView+Extension.m"; sourceTree = "<group>"; };
 		5368A3451B53469200652E95 /* tuisong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tuisong.wav; sourceTree = "<group>"; };
-		5368A34D1B56454700652E95 /* APService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APService.h; sourceTree = "<group>"; };
-		5368A34E1B56454700652E95 /* libPushSDK-1.8.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPushSDK-1.8.3.a"; sourceTree = "<group>"; };
 		5368A3501B56458900652E95 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5368A3521B56459400652E95 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		5368A3541B5645A100652E95 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -276,13 +276,13 @@
 				5368A3611B5645F300652E95 /* libz.dylib in Frameworks */,
 				5368A35F1B5645DB00652E95 /* Security.framework in Frameworks */,
 				5368A35D1B5645D000652E95 /* UIKit.framework in Frameworks */,
+				534D4F701B671BCE006253EB /* libPushSDK-1.8.3.a in Frameworks */,
 				5368A35B1B5645C500652E95 /* Foundation.framework in Frameworks */,
 				5368A3591B5645B900652E95 /* CoreGraphics.framework in Frameworks */,
 				5368A3571B5645AC00652E95 /* SystemConfiguration.framework in Frameworks */,
 				5368A3551B5645A100652E95 /* CoreTelephony.framework in Frameworks */,
 				5368A3531B56459400652E95 /* CoreFoundation.framework in Frameworks */,
 				5368A3511B56458900652E95 /* CFNetwork.framework in Frameworks */,
-				5368A34F1B56454700652E95 /* libPushSDK-1.8.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,7 +498,7 @@
 		53482BC11B2FD8C500F85BB3 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				5368A34C1B56454700652E95 /* JPush */,
+				534D4F6D1B671BCE006253EB /* JPush */,
 				5352D6161B3A911200FA2FD0 /* MBProgressHUD */,
 				53482C371B33E4B900F85BB3 /* TLAlertView */,
 				53482BC61B2FD93E00F85BB3 /* Resources */,
@@ -686,6 +686,15 @@
 			path = Base.lproj;
 			sourceTree = "<group>";
 		};
+		534D4F6D1B671BCE006253EB /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				534D4F6E1B671BCE006253EB /* APService.h */,
+				534D4F6F1B671BCE006253EB /* libPushSDK-1.8.3.a */,
+			);
+			path = JPush;
+			sourceTree = "<group>";
+		};
 		5352D6161B3A911200FA2FD0 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -707,16 +716,6 @@
 				535722511B362E6C001F6903 /* UIView+Extension.m */,
 			);
 			path = category;
-			sourceTree = "<group>";
-		};
-		5368A34C1B56454700652E95 /* JPush */ = {
-			isa = PBXGroup;
-			children = (
-				5368A34D1B56454700652E95 /* APService.h */,
-				5368A34E1B56454700652E95 /* libPushSDK-1.8.3.a */,
-			);
-			name = JPush;
-			path = "../../../../../../../Desktop/JPush-iOS-SDK-1.8.3/JPush";
 			sourceTree = "<group>";
 		};
 		5368A6151B38F4AB00093484 /* more(更多) */ = {
@@ -1143,6 +1142,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/majiajun/Desktop/JPush-iOS-SDK-1.8.3/JPush",
+					"$(PROJECT_DIR)/diarymanage/main/lib/JPush",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1159,6 +1159,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/majiajun/Desktop/JPush-iOS-SDK-1.8.3/JPush",
+					"$(PROJECT_DIR)/diarymanage/main/lib/JPush",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
